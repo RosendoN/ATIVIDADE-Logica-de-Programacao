@@ -1,4 +1,4 @@
-Exercício 1
+//Exercício 1
 
 programa {
  funcao inicio() {
@@ -22,7 +22,7 @@ programa {
  
 
 
-Exercício 2
+//Exercício 2
 
 programa {
  
@@ -55,7 +55,9 @@ programa {
  }
 }
  
-Exercício 3
+
+
+//Exercício 3
 
 programa {
  
@@ -87,14 +89,10 @@ programa {
  
  }
 }
- 
- 
- 
- 
- 
+  
 
 
-Exercício 4
+//Exercício 4
 
 programa {
  
