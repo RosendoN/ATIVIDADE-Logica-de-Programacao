@@ -1,5 +1,4 @@
 
-
 //Exercício 1
 
 programa {
