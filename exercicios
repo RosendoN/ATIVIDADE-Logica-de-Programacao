@@ -1,0 +1,124 @@
+Exercício 1
+
+programa {
+ funcao inicio() {
+ 
+   real salario
+   real abono
+   real novoSalario
+ 
+   escreva("Informe o salário \n")
+   leia(salario)
+ 
+   escreva("Informe o abono \n")
+   leia(abono)
+ 
+   novoSalario = salario + abono
+ 
+   escreva("O novo salário é R$", novoSalario)
+ 
+ }
+}
+ 
+
+
+Exercício 2
+
+programa {
+ 
+ inclua Matematica --> Mat
+ 
+ funcao inicio() {
+ 
+   real nota01
+   real nota02
+   real nota03
+   real nota04
+   real media
+ 
+   escreva("Informe a primeira nota \n")
+   leia(nota01)
+ 
+   escreva("Informe a segunda nota \n")
+   leia(nota02)
+  
+   escreva("Informe a terceira nota \n")
+   leia(nota03)
+  
+   escreva("Informe a quarta nota \n")
+   leia(nota04)
+ 
+   media = (nota01 + nota02 + nota03 + nota04) / 4
+ 
+   escreva("\nA média das quatros notas é ", Mat.arredondar(media, 2))
+  
+ }
+}
+ 
+Exercício 3
+
+programa {
+ 
+ inclua Matematica --> Mat
+ 
+ funcao inicio() {
+ 
+   real salarioBruto
+   real adicionalNoturno
+   real horasExtras
+   real descontos
+   real salarioLiquido
+ 
+   escreva("Qual o valor do salário bruto? \n")
+   leia(salarioBruto)
+  
+   escreva("Qual o valor do adicional noturno? \n")
+   leia(adicionalNoturno)
+  
+   escreva("Qual o valor das horas extras? \n")
+   leia(horasExtras)
+  
+   escreva("Qual o valor do desconto? \n")
+   leia(descontos)
+ 
+   salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos
+  
+   escreva("\nO valor do salário líquido é R$", Mat.arredondar(salarioLiquido, 2))
+ 
+ }
+}
+ 
+ 
+ 
+ 
+ 
+
+
+Exercício 4
+
+programa {
+ 
+ funcao inicio() {
+ 
+ inteiro numero1, numero2, numero3, numero4, diferenca
+ 
+ escreva("Digite o primeiro número \n")
+ leia(numero1)
+ 
+ escreva("Digite o segundo número \n")
+ leia(numero2)
+ 
+ escreva("Digite o terceiro número \n")
+ leia(numero3)
+ 
+ escreva("Digite o quarto número \n")
+ leia(numero4)
+ 
+ diferenca = (numero1 * numero2) - (numero3 * numero4)
+ 
+ escreva("\n A diferença do produto entre o numero1 e o numero2 pelo produto entre o numero3 e o numero4 é ", diferenca)
+ leia()
+ 
+ }
+}
+ 
